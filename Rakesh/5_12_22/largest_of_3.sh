@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo -n "Enter 3 numbers : "
-read -d " " num1 num2 num3
+read num1 num2 num3
 if [ $num1 -gt $num2 ] && [ $num1 -gt $num3 ]
 then
 	echo num1 = $num1 is the largest number.
